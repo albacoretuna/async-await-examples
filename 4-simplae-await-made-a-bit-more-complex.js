@@ -17,3 +17,13 @@ async function getCamoJson() {
 }
 
 var body = await getCamoJson();
+
+
+/** error:
+SyntaxError: /home/omid/dev/async-await-example/4-simplae-await-made-a-bit-more-complex.js: Unexpected token (19:17)
+  17 | }
+  18 |
+> 19 | var body = await getCamoJson();
+     |                  ^
+  20 |
+*/
