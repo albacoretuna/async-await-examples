@@ -36,8 +36,8 @@ async function main() {
     });
 
     await Promise.all(reqs);
+    
+    console.log(JSON.stringify(issueTitles));
 }
 
 main();
-
-console.log(JSON.stringify(issueTitles));
